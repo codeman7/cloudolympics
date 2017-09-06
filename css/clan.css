@@ -1,0 +1,108 @@
+@font-face{
+	font-family: bold;
+	src: url('Roboto/Roboto-Bold.ttf');
+}
+
+@font-face{
+	font-family: medium;
+	src: url('Roboto/Roboto-Medium.ttf');
+}
+
+@font-face{
+	font-family: light;
+	src: url('Roboto/Roboto-Light.ttf');
+}
+
+@font-face{
+	font-family: regular;
+	src: url('Roboto/Roboto-Regular.ttf');
+}
+
+.header{
+	background-color: rgb(255,255,255);
+	margin-bottom: 5px;
+}
+
+.left_top, .right_top, .left_bottom, .right_bottom{
+	float: left;
+	width: 50%;
+	height: 310px;
+	text-align: center;
+}
+
+.left_top:hover, .right_top:hover, .left_bottom:hover, .right_bottom:hover{
+	background-color: rgb(0,40,125);
+}
+
+.title{
+	color: rgb(0,40,125);
+	font-family: bold;
+	font-size: 30px;
+}
+
+.left_top:hover .title, .right_top:hover .title, .left_bottom:hover .title, .right_bottom:hover .title{
+	color: rgb(255,255,255);
+}
+
+.content{
+	color: rgb(0,0,0);
+	font-family: light;
+	font-size: 20px;
+}
+
+.join, .create, .browse, .check{
+	width: 100%;
+	display: none;
+}
+
+.submit_create{
+	font-family: regular;
+	float: right;
+	margin-right: 20%;
+}
+
+.submit_join:hover, .submit_create:hover{
+	border-color: rgb(145,145,145);
+}
+
+.create{
+	width: 90%;
+	margin: 0px 5% 0px 5%;
+}
+
+.form{
+	border-bottom: 1px solid rgb(0,0,0);
+	font-family: bold;
+	font-size: 24px;
+	color: rgb(0,40,125);
+	padding-bottom: 10px;
+}
+
+.name{
+	width: 100%;
+	font-family: medium;
+	height: 100px;
+	text-align: center;
+}
+
+.name input{
+	border-radius: 3px;
+	height: 25px;
+	font-size: 16px;
+	margin: 0px 25% 0px 25%;
+	width: 50%;
+	text-align: center;
+	border-width: 1px;
+}
+
+.note{
+	font-size: 12px;
+}
+
+.gametype, .age, .mic, .open{
+	float: left;
+	width: 50%;
+	font-family: medium;
+	height: 150px;
+}
+

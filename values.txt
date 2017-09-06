@@ -1,0 +1,220 @@
+<!DOCTYTPE html>
+<html>
+<head>
+<title>
+Cloud Olympics-Sign Up
+</title>
+<link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+
+
+<div class="header">
+
+<img src="images/logoword.gif" alt="logo">
+
+<a href="aboutus.html" class="habout">
+About Us
+</a>
+
+<a href="index.html" class="hhome">
+Home
+</a>
+</div>
+<div class="legend">
+
+<p>
+Sign Up
+</p>
+</div>
+
+<div class="container">
+
+<form action="scripts/insert.php" method="POST"> 
+
+
+<div class="form">
+<p>We just need to know a little about you. Ok?</p>
+</div>
+
+
+<div class="login">
+<p class="basic">
+Basic Information
+</p>
+<p class="questions">
+What is your email?
+
+<input type="email" name="email" class="top" />
+</p>
+
+<p class="questions">
+What would you like your password to be?
+
+<input type="password" name="password" class="top" />
+</p>
+
+</div>
+
+
+<div class="game">
+<p class="basic">
+Gaming Information
+</p>
+<p class="questions">
+What is your Xbox Live Gamertag?
+
+<input type="text" name="gamertag" class="top" />
+</p>
+
+<p class="questions">
+What games do you play?
+
+<input type="checkbox" name="game" value="COD" />Call of Duty
+<input type="checkbox" name="game" value="MedalofHonor" />Medal of Honor
+<input type="checkbox" name="game" value="Halo" />Halo
+<input type="checkbox" name="game" value="Battlefield" />Battlefield
+<input type="checkbox" name="game" value="GoW" />Gears of War
+</p>
+
+<p class="notice">
+* We will be supporting more games as soon as possible
+</p>
+</div>
+
+
+<div="personal">
+<p class="basic">
+Play Style
+</p>
+<p class="questions">
+Do you play with a microphone?
+<input type="radio" name="mic" value="yes" />Yes
+<input type="radio" name="mic" value="no" />No
+</p>
+
+<p class="questions">
+Why do you usually play?
+<input type="radio" name="reason" value="fun" />Just for fun
+<input type="radio" name="reason" value="win" />I play to win
+</p>
+
+<p class="questions">
+What year were you born?
+<select name="birthday">
+<option value="1962">Before 1963</option>
+<option value="1963">1963</option>
+<option value="1964">1964</option>
+<option value="1965">1965</option>
+<option value="1966">1966</option>
+<option value="1967">1967</option>
+<option value="1968">1968</option>
+<option value="1969">1969</option>
+<option value="1970">1970</option>
+<option value="1971">1971</option>
+<option value="1972">1972</option>
+<option value="1973">1973</option>
+<option value="1974">1974</option>
+<option value="1975">1975</option>
+<option value="1976">1976</option>
+<option value="1977">1977</option>
+<option value="1978">1978</option>
+<option value="1979">1979</option>
+<option value="1980">1980</option>
+<option value="1981">1981</option>
+<option value="1982">1982</option>
+<option value="1983">1983</option>
+<option value="1984">1984</option>
+<option value="1985">1985</option>
+<option value="1986">1986</option>
+<option value="1987">1987</option>
+<option value="1988">1988</option>
+<option value="1989">1989</option>
+<option value="1990">1990</option>
+<option value="1991">1991</option>
+<option value="1992">1992</option>
+<option value="1993">1993</option>
+<option value="1994">1994</option>
+<option value="1995">1995</option>
+<option value="1996">1996</option>
+<option value="1997">1997</option>
+<option value="1998">1998</option>
+<option value="1999">1999</option>
+<option value="2000">2000</option>
+<option value="2001">2001</option>
+<option value="2002">2002</option>
+<option value="2003">2003</option>
+<option value="2004">After 2003</option>
+</select>
+</p>
+
+<p class="questions">  
+What state do you live in?
+<select name="state">
+<option value="se">Alabama</option>
+<option value="nw">Alaska</option>
+<option value="ww">Arizona</option>
+<option value="ms">Arkansas</option>
+<option value="ww">California</option>
+<option value="nw">Colorado</option>
+<option value="ne">Connecticut</option>
+<option value="me">Delaware</option>
+<option value="se">Florida</option>
+<option value="se">Georgia</option>
+<option value="ww">Hawaii</option>
+<option value="nw">Idaho</option>
+<option value="te">Illinois</option>
+<option value="te">Indiana</option>
+<option value="nw">Iowa</option>
+<option value="nw">Kansas</option>
+<option value="ma">Kentucky</option>
+<option value="ms">Louisiana</option>
+<option value="ne">Maine</option>
+<option value="me">Maryland</option>
+<option value="ne">Massachusetts</option>
+<option value="te">Michigan</option>
+<option value="nw">Minnesota</option>
+<option value="se">Mississippi</option>
+<option value="ma">Misouri</option>
+<option value="nw">Montana</option>
+<option value="nw">Nebraska</option>
+<option value="ww">Nevada</option>
+<option value="ne">New Hampshire</option>
+<option value="me">New Jersey</option>
+<option value="ms">New Mexico</option>
+<option value="ne">New York</option>
+<option value="ma">North Carolina</option>
+<option value="nw">North Dakota</option>
+<option value="te">Ohio</option>
+<option value="ms">Oklahoma</option>
+<option value="nw">Oregon</option>
+<option value="me">Pennsylvania</option>
+<option value="ne">Rhode Island</option>
+<option value="se">South Carolina</option>
+<option value="nw">South Dakota</option>
+<option value="ma">Tennessee</option>
+<option value="ms">Texas</option>
+<option value="nw">Utah</option>
+<option value="ne">Vermont</option>
+<option value="me">Virginia</option>
+<option value="nw">Washington</option>
+<option value="me">West Virginia</option>
+<option value="nw">Wisconsin</option>
+<option value="nw">Wyoming</option>
+<option value="no">Non US</option>
+</select>
+</p>
+
+
+</div>
+
+<input type="submit" value="Sign Up" class="submit" />
+</form>
+</div>
+<div class="footer">
+<a href="why.html">Why do we ask these questions?</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+@font-face{
+	font-family: bold;
+	src: url('Roboto/Roboto-Bold.ttf');
+}
+
+@font-face{
+	font-family: medium;
+	src: url('Roboto/Roboto-Medium.ttf');
+}
+
+.join{
+	margin: 100px 0px 100px 0px;
+}
+
+.search_header{
+	font-family: bold;
+	font-size: 36px;
+	color: rgb(0,40,125);
+	text-align: center;
+}
+
+.input{
+	width: 34%;
+	margin-left: 27.5%;
+	height: 30px;
+	border-radius: 3px;
+	border-color: rgb(0,40,125);
+	border-width: 1px;
+}
+
+.submit_join{
+	width: 7%;
+	margin-left: .5%;
+	margin-right: 20%;
+	min-width: 50px;
+	font-family: medium;
+	height: 25px;
+	background-color: rgb(240,240,240);
+	border-color: rgb(205,205,205);
+	border-width: 1px;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+.submit_join:hover{
+	border-color: rgb(145,145,145);
+}
+

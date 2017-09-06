@@ -1,0 +1,143 @@
+@font-face{
+	font-family: light;
+	src: url('Roboto/Roboto-Light.ttf')
+}
+
+@font-face{
+	font-family: medium;
+	src: url('Roboto/Roboto-Medium.ttf')
+}
+
+@font-face{
+	font-family: regular;
+	src: url('Roboto/Roboto-Regular.ttf')
+}
+
+body{
+	margin: 0px;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #CFCFCF 0%, #FFFFFF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #CFCFCF 0%, #FFFFFF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #CFCFCF 0%, #FFFFFF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #CFCFCF), color-stop(1, #FFFFFF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #CFCFCF 0%, #FFFFFF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #CFCFCF 0%, #FFFFFF 100%);
+background-repeat: no-repeat;
+background-color: #FFFFFF;
+}
+
+a{
+	text-decoration: none;
+	font-family: light;
+}
+
+.header{
+	width: 100%;
+	background-color: rgb(255,255,255);
+	border-bottom: 2px solid rgb(0,40,125);
+	height: 60px;
+}
+
+.header img{
+	height: 50px;
+	padding: 5px 0px 0px 10px;
+}
+
+.header img, .title{
+	float: left;
+}
+
+.title{
+	color: rgb(0,40,125);
+	font-family: medium;
+	font-size: 36px;
+	line-height: 36px;
+	margin-top: 13px;
+	margin-left: 5px;
+}
+
+.header a{
+	float: right;
+	color: rgb(0,40,125);
+	font-size: 24px;
+	padding-top: 15px;
+	margin-right: 10px;
+}
+
+.container{
+	width: 100%;
+	height: 675px;
+}
+
+.left{
+	float: left;
+	margin-left: 35px;
+	margin-right: 25px;
+}
+
+.stories{
+	border-bottom: 1px solid rgb(0,40,125);
+}
+
+.stories h1{
+	font-family: regular;
+	color: rgb(0,40,125);
+	font-size: 24px;
+	margin: 20px 0px 0px 0px;
+}
+
+.date_time{
+	font-family: light;
+	font-size: 12px;
+	height: 20px;
+	margin: 0px;
+}
+
+.body{
+	font-family: medium;
+	font-size: 16px;
+	width: 100%;
+}
+
+.right{
+	float: right;
+	width: 200px;
+	height: 600px;
+}
+
+.archive{
+	width: 100%;
+}
+
+.archive a{
+	color: rgb(0,0,0);
+	font-size: 20px;
+}
+
+.ads{
+	background-color: rgb(100,100,100);
+	width: 100%;
+	height: 100%;
+}
+
+.footer{
+	width: 100%;
+	border-top: 1px solid rgb(0,40,125);
+	padding: 10px 0px 10px 0px;
+	
+}
+
+.footer a{
+	color: rgb(0,0,0);
+	margin-left: 10px
+}

@@ -1,0 +1,72 @@
+@font-face{
+	font-family: bold;
+	src: url('Roboto/Roboto-Bold.ttf');
+}
+
+@font-face{
+	font-family: medium;
+	src: url('Roboto/Roboto-Medium.ttf');
+}
+
+@font-face{
+	font-family: regular;
+	src: url('Roboto/Roboto-Regular.ttf');
+}
+
+.submit_create{
+	height: 25px;
+	background-color: rgb(240,240,240);
+	border-color: rgb(205,205,205);
+	border-width: 1px;
+	font-size: 12px;
+	font-family: regular;
+	float: right;
+	margin-right: 20%;
+	border-radius: 3px;
+}
+
+.submit_create:hover{
+	border-color: rgb(145,145,145);
+}
+
+.create{
+	width: 90%;
+	margin: 0px 5% 0px 5%;
+}
+
+.form{
+	border-bottom: 1px solid rgb(0,0,0);
+	font-family: bold;
+	font-size: 24px;
+	color: rgb(0,40,125);
+	padding-bottom: 10px;
+}
+
+.name{
+	width: 100%;
+	font-family: medium;
+	height: 100px;
+	text-align: center;
+}
+
+.name input{
+	border-radius: 3px;
+	height: 25px;
+	font-size: 16px;
+	margin: 0px 25% 0px 25%;
+	width: 50%;
+	text-align: center;
+	border-width: 1px;
+}
+
+.note{
+	font-size: 12px;
+}
+
+.gametype, .age, .mic, .open{
+	float: left;
+	width: 50%;
+	font-family: medium;
+	height: 150px;
+}
+

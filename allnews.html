@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cloud Olympics News</title>
+<link rel="stylesheet" href="css/allnews.css">
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+</head>
+<body>
+	<div class="header">
+		<img src="images/logo.gif" alt="logo" title="logo">
+		<p class="title">Cloud Olympics Archive
+		</p>
+		<a href="profile.html">My Profile
+		</a>
+	</div>
+	<div class="container">
+		<div class="left">
+			<div class="stories">
+				<h1>
+				<a href="#body">
+				First Post Ever
+				</a>
+				</h1>
+				<p class="date_time">5/31 6:15PM</p>
+				<p class="body" id="body">
+				This is the first post ever on this site I just want to do this post about what I would like to grow the site into.  I can see the site going to xbox one and ps4 as well as being live for every game.  I potentially would like it to be the hub for everything gaming.  Weather that be social, competitive, news, everything gaming!  Right now I am just one person running the site I think in the next post I'll do a little talk about me.  Since this page is about news a couple things in the gaming news are the new consoles which are called ps4 and xbox one.  This page will also be my personal blog.  One this site the biggest news if you are reading this is that it is live and my hope is that the biggest news in the gaming industry today is that this site exist so tell all your friends about it.  Everyday you can check here and I'll try and cover whats new in gaming.  Have a great day and God bless, CODEMAN VII.
+				</p>
+			</div>
+		</div>
+		<div class="right">
+			<div class="news">
+				<a href="news.html">
+				Back to News
+				</a>
+			</div>
+			<div class="ads">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<a href="about_us.html">About Us
+		</a>
+		<a href="feedback.html">Feedback
+		</a>
+	</div>
+</body>
+<script>
+$(".stories h1 a").click(function () {
+      $(".body").toggle();
+    });
+
+
+function setSize () {
+   var windowWidth = $(window).width();
+	$(".left").width(windowWidth - 275);}
+	$(window).resize(function () {
+		setSize();
+		setRatio();});
+			setSize();
+			
+</script>
+</html>

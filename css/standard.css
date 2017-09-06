@@ -1,0 +1,14 @@
+body{
+	margin: 0px;
+}
+
+.header{
+	width: 100%;
+	height: 60px;
+	border-bottom: 2px solid rgb(0,40,125);
+}
+
+.header img{
+	height: 50px;
+	margin: 5px 0px 5px 15px;
+}
